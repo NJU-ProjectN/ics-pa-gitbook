@@ -1,0 +1,949 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>First Exploration with GNU/Linux · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles.css">
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0.3.html" />
+    
+    
+    <link rel="prev" href="0.1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="PA0.html">
+            
+                <a href="PA0.html">
+            
+                    
+                    PA0 - 世界诞生的前夜: 开发环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="0.1.html">
+            
+                <a href="0.1.html">
+            
+                    
+                    Installing a GNU/Linux VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="0.2.html">
+            
+                <a href="0.2.html">
+            
+                    
+                    First Exploration with GNU/Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="0.3.html">
+            
+                <a href="0.3.html">
+            
+                    
+                    Installing Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="0.4.html">
+            
+                <a href="0.4.html">
+            
+                    
+                    Configuring vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="0.5.html">
+            
+                <a href="0.5.html">
+            
+                    
+                    More Exploration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="0.6.html">
+            
+                <a href="0.6.html">
+            
+                    
+                    Transferring Files between host and container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="0.7.html">
+            
+                <a href="0.7.html">
+            
+                    
+                    Acquiring Source Code for PAs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="PA1.html">
+            
+                <a href="PA1.html">
+            
+                    
+                    PA1 - 开天辟地的篇章: 最简单的计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    在开始愉快的PA之旅之前
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    开天辟地的篇章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    RTFSC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    基础设施
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="1.5.html">
+            
+                <a href="1.5.html">
+            
+                    
+                    表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="1.6.html">
+            
+                <a href="1.6.html">
+            
+                    
+                    监视点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="1.7.html">
+            
+                <a href="1.7.html">
+            
+                    
+                    i386手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="PA2.html">
+            
+                <a href="PA2.html">
+            
+                    
+                    PA2 - 简单复杂的机器: 冯诺依曼计算机系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    不停计算的机器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    RTFSC(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="2.3.html">
+            
+                <a href="2.3.html">
+            
+                    
+                    程序, 运行时环境与AM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="2.4.html">
+            
+                <a href="2.4.html">
+            
+                    
+                    基础设施(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="2.5.html">
+            
+                <a href="2.5.html">
+            
+                    
+                    输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="PA3.html">
+            
+                <a href="PA3.html">
+            
+                    
+                    PA3 - 穿越时空的旅程: 异常控制流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="3.1.html">
+            
+                <a href="3.1.html">
+            
+                    
+                    更方便的运行时环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="3.2.html">
+            
+                <a href="3.2.html">
+            
+                    
+                    等级森严的制度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="3.3.html">
+            
+                <a href="3.3.html">
+            
+                    
+                    穿越时空的旅程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="3.4.html">
+            
+                <a href="3.4.html">
+            
+                    
+                    文件系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="3.5.html">
+            
+                <a href="3.5.html">
+            
+                    
+                    一切皆文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="PA4.html">
+            
+                <a href="PA4.html">
+            
+                    
+                    PA4 - 虚实交错的魔法: 分时多任务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="4.1.html">
+            
+                <a href="4.1.html">
+            
+                    
+                    虚实交错的魔法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="4.2.html">
+            
+                <a href="4.2.html">
+            
+                    
+                    超越容量的界限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="4.3.html">
+            
+                <a href="4.3.html">
+            
+                    
+                    分时多任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="4.4.html">
+            
+                <a href="4.4.html">
+            
+                    
+                    来自外部的声音
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="4.5.html">
+            
+                <a href="4.5.html">
+            
+                    
+                    编写不朽的传奇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="PA5.html">
+            
+                <a href="PA5.html">
+            
+                    
+                    PA5 - 从一到无穷大: 程序与性能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="5.1.html">
+            
+                <a href="5.1.html">
+            
+                    
+                    浮点数的支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="5.2.html">
+            
+                <a href="5.2.html">
+            
+                    
+                    通往高速的次元
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="5.3.html">
+            
+                <a href="5.3.html">
+            
+                    
+                    天下武功唯快不破
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="blank.html">
+            
+                <a href="blank.html">
+            
+                    
+                    杂项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="why.html">
+            
+                <a href="why.html">
+            
+                    
+                    为什么要学习计算机系统基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="submit.html">
+            
+                <a href="submit.html">
+            
+                    
+                    实验提交要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="linux.html">
+            
+                <a href="linux.html">
+            
+                    
+                    Linux入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="man.html">
+            
+                <a href="man.html">
+            
+                    
+                    man入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    git入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="i386-intro.html">
+            
+                <a href="i386-intro.html">
+            
+                    
+                    i386手册指令集阅读指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="i386-typo.html">
+            
+                <a href="i386-typo.html">
+            
+                    
+                    i386手册勘误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="exec.html">
+            
+                <a href="exec.html">
+            
+                    
+                    指令执行例子
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >First Exploration with GNU/Linux</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="first-exploration-with-gnulinux">First Exploration with GNU/Linux</h2>
+<p>To start the container, type the following command in the terminal:</p>
+<pre><code>docker start ics-vm
+</code></pre><p>This command will start the container with name <code>ics-vm</code>, which is created by us.
+By defualt, <code>ics-vm</code> will start in detach mode,
+running the SSH deamon instructed at the end of the Dockerfile.
+This means we can not interact with it directly.
+To login the container, we should do the SSH configuration first.</p>
+<h3 id="ssh-configuration">SSH configuration</h3>
+<p>According to the type of your host operating system, you will perform different configuration.</p>
+<h4 id="for-gnulinux-and-mac-users">For GNU/Linux and Mac users</h4>
+<p>You will use the build-in <code>ssh</code> tool, and do not need to install an extra one.
+Open a terminal, run</p>
+<pre><code>ssh -p 20022 username@127.0.0.1
+</code></pre><p>where <code>username</code> is the user name in Dockerfile. By default, it is <code>ics</code>.
+If you are prompted with</p>
+<pre><code>Are you sure you want to continue connecting (yes/no)?
+</code></pre><p>enter &quot;yes&quot;.
+Then enter the user password in Dockerfile.
+If everything is fine, you will login the container via SSH successfully.</p>
+<h4 id="for-windows-users">For Windows users</h4>
+<p>Windows has no build-in <code>ssh</code> tool, and you have to download one manually.
+Download the latest release version of <code>putty.exe</code> <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">here</a>.
+Run <code>putty.exe</code>, and you will see a dialog is invoked.
+In the input box labeled with <code>Host Name (or IP address)</code>, enter <code>127.0.0.1</code>, and change the port to <code>20022</code>.
+To avoid entering IP address and port every time you login, you can save these information as a session.
+Leave other settings default, then click <code>Open</code> button.
+Enter the container user name and password in Dockerfile.
+If everything is fine, you will login the container via SSH successfully.</p>
+<h3 id="first-exploration">First exploration</h3>
+<p>After login via SSH, you will see the following prompt:</p>
+<pre><code>username@hostname:~$
+</code></pre><p>This prompt shows your username, host name, and the current working directory.
+The username should be the same as you set in the Dockerfile before building the image.
+The host name is generated randomly by Docker, and it is unimportant for us.
+The current working directory is <code>~</code> now.
+As you switching to another directory, the prompt will change as well.
+You are going to finish all the experiments under this environment, so try to make friends with terminal!</p>
+<p><div class="panel"><div class="box">Where is GUI?</div><div class="word-in-panel"><p>Many of you always use operating system with GUI, such as Windows.
+The container you just created is without GUI.
+It is completely with CLI (Command Line Interface).
+As you entering the container, you may feel empty, depress, and then panic...</p>
+<p>Calm down yourself.
+Have you wondered if there is something that you can do it in CLI, but can not in GUI?
+Have no idea?
+If you are asked to count how many lines of code you have coded during the &#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x57FA;&#x7840; course, what will you do?</p>
+<p>If you stick to Visual Studio, you will never understand why <code>vim</code> is called <a href="http://os.51cto.com/art/201101/242518.htm" target="_blank">&#x7F16;&#x8F91;&#x5668;&#x4E4B;&#x795E;</a>.
+If you stick to Windows, you will never know what is <a href="http://en.wikipedia.org/wiki/Unix_philosophy" target="_blank">Unix Philosophy</a>.
+If you stick to GUI, you can only do what it can; but in CLI, it can do what you want.
+One of the most important spirits of young people like you is to try new things to bade farewell to the past.</p>
+<p>GUI wins when you do something requires high definition displaying, such as watching movies.
+ <font color="red">But in our experiments, GUI is unnecessary.</font>
+Here are two articles discussing the comparision between GUI and CLI:</p>
+<ul>
+<li><a href="http://www.linuxdevcenter.com/pub/a/linux/2001/11/15/learnunixos.html" target="_blank">Why Use a Command Line Instead of Windows?</a> </li>
+<li><a href="http://www.computerhope.com/issues/ch000619.htm" target="_blank">Command Line vs. GUI</a></li>
+</ul>
+</div></div></p>
+<p>Now you can see how much disk space Debian occupies.
+Type the following command:</p>
+<pre><code>df -h
+</code></pre><p>You can see that Debian is quite &quot;slim&quot;.</p>
+<p><div class="panel"><div class="box">Why Windows is quite &quot;fat&quot;?</div><div class="word-in-panel"><p>Installing a Windows operating system usually requires much more disk space as well as memory.
+Can you figure out why the Debian operating system can be so &quot;slim&quot;?</p>
+</div></div></p>
+<p>To shut down the container, first type <code>exit</code> command to terminate the SSH connection.
+Then go back to the host terminal, stop the container by:</p>
+<pre><code>docker stop ics-vm
+</code></pre><p>And type <code>exit</code> to exit the host terminal.</p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://sashimi-yzh.github.io/" target="_blank">Zihao Yu</a>, &#x91C7;&#x7528;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 3.0 &#x4E2D;&#x56FD;&#x5927;&#x9646; &#x8BB8;&#x53EF;&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;:  2019-05-03 18:28:28 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0.1.html" class="navigation navigation-prev " aria-label="Previous page: Installing a GNU/Linux VM">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0.3.html" class="navigation navigation-next " aria-label="Next page: Installing Tools">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"First Exploration with GNU/Linux","level":"1.2.2","depth":2,"next":{"title":"Installing Tools","level":"1.2.3","depth":2,"path":"0.3.md","ref":"0.3.md","articles":[]},"previous":{"title":"Installing a GNU/Linux VM","level":"1.2.1","depth":2,"path":"0.1.md","ref":"0.1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["localized-footer","page-footer-ex","nestedmd","mdinhtml"],"pluginsConfig":{"page-footer-ex":{"copyright":"By [Zihao Yu](https://sashimi-yzh.github.io/), 采用[知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆 许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于: "},"mdinhtml":{},"search":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"nestedmd":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles.css","pdf":"styles.css"}},"file":{"path":"0.2.md","mtime":"2019-05-03T10:28:28.328Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-03T10:32:39.784Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

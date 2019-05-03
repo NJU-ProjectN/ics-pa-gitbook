@@ -1,0 +1,23 @@
+name: Remote Dispatch Action Initiator
+
+on:
+  push:
+
+jobs:
+  auto-sync-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: echo "ORIGINAL=$(git diff -U0 ${{ github.event.before }} ${{ github.event.after }} | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)' | grep '^-' | cut -c 2- | base64 -w 0)" >> $GITHUB_ENV
+      - run: echo "MODIFIED=$(git diff -U0 ${{ github.event.before }} ${{ github.event.after }} | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)' | grep '^+' | cut -c 2- | base64 -w 0)" >> $GITHUB_ENV
+      - run: echo "FILELIST=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | base64 -w 0)" >> $GITHUB_ENV
+      - run: echo "$ORIGINAL" | base64 --decode
+      - run: echo "$MODIFIED" | base64 --decode
+      - run: echo "$FILELIST" | base64 --decode
+      - run: |
+          curl -X POST https://api.github.com/repos/oscc-web/ics-pa-en/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.YSYX_EN_TOKEN }} \
+          --data '{"event_type": "ping", "client_payload": { "original": "'"$ORIGINAL"'", "modified": "'"$MODIFIED"'", "filelist": "'"$FILELIST"'" }}'

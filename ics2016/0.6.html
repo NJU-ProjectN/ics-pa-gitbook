@@ -1,0 +1,1004 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Transferring Files between host and container · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles.css">
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0.7.html" />
+    
+    
+    <link rel="prev" href="0.5.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="PA0.html">
+            
+                <a href="PA0.html">
+            
+                    
+                    PA0 - 世界诞生的前夜: 开发环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="0.1.html">
+            
+                <a href="0.1.html">
+            
+                    
+                    Installing a GNU/Linux VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="0.2.html">
+            
+                <a href="0.2.html">
+            
+                    
+                    First Exploration with GNU/Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="0.3.html">
+            
+                <a href="0.3.html">
+            
+                    
+                    Installing Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="0.4.html">
+            
+                <a href="0.4.html">
+            
+                    
+                    Configuring vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="0.5.html">
+            
+                <a href="0.5.html">
+            
+                    
+                    More Exploration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="0.6.html">
+            
+                <a href="0.6.html">
+            
+                    
+                    Transferring Files between host and container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="0.7.html">
+            
+                <a href="0.7.html">
+            
+                    
+                    Acquiring Source Code for PAs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="PA1.html">
+            
+                <a href="PA1.html">
+            
+                    
+                    PA1 - 洞察世界的视点: 简易调试器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    在开始愉快的PA之旅之前
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    RTFSC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    第三视点
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="1.3.1.html">
+            
+                <a href="1.3.1.html">
+            
+                    
+                    基本招式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="1.3.2.html">
+            
+                <a href="1.3.2.html">
+            
+                    
+                    有求必应
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="1.3.3.html">
+            
+                <a href="1.3.3.html">
+            
+                    
+                    天网恢恢
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    武功秘笈
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="PA2.html">
+            
+                <a href="PA2.html">
+            
+                    
+                    PA2 - 不停计算的机器: 指令系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    武功秘笈阅读指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    RTFSC(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="2.3.html">
+            
+                <a href="2.3.html">
+            
+                    
+                    初出茅庐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="2.4.html">
+            
+                <a href="2.4.html">
+            
+                    
+                    融会贯通
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="2.5.html">
+            
+                <a href="2.5.html">
+            
+                    
+                    第三视点(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="2.6.html">
+            
+                <a href="2.6.html">
+            
+                    
+                    三生万物
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="2.7.html">
+            
+                <a href="2.7.html">
+            
+                    
+                    扭转乾坤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="PA3.html">
+            
+                <a href="PA3.html">
+            
+                    
+                    PA3 - 虚实交错的魔法: 存储管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="3.1.html">
+            
+                <a href="3.1.html">
+            
+                    
+                    Cache的故事
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="3.2.html">
+            
+                <a href="3.2.html">
+            
+                    
+                    IA-32的故事
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="3.2.1.html">
+            
+                <a href="3.2.1.html">
+            
+                    
+                    混沌初开
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="3.2.2.html">
+            
+                <a href="3.2.2.html">
+            
+                    
+                    建立新秩序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="3.2.3.html">
+            
+                <a href="3.2.3.html">
+            
+                    
+                    迈进新时代
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="3.2.4.html">
+            
+                <a href="3.2.4.html">
+            
+                    
+                    从一到无穷大
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="PA4.html">
+            
+                <a href="PA4.html">
+            
+                    
+                    PA4 - 来自外部的声音: 中断与I/O
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="4.1.html">
+            
+                <a href="4.1.html">
+            
+                    
+                    穿越时空的旅程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="4.2.html">
+            
+                <a href="4.2.html">
+            
+                    
+                    时空之旅大揭秘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="4.3.html">
+            
+                <a href="4.3.html">
+            
+                    
+                    天外有天的世界
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="4.4.html">
+            
+                <a href="4.4.html">
+            
+                    
+                    加入最后的拼图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="4.5.html">
+            
+                <a href="4.5.html">
+            
+                    
+                    移植打字小游戏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="4.6.html">
+            
+                <a href="4.6.html">
+            
+                    
+                    通往高速的次元
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="4.7.html">
+            
+                <a href="4.7.html">
+            
+                    
+                    移植仙剑奇侠传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="4.8.html">
+            
+                <a href="4.8.html">
+            
+                    
+                    编写不朽的传奇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="blank.html">
+            
+                <a href="blank.html">
+            
+                    
+                    杂项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="why.html">
+            
+                <a href="why.html">
+            
+                    
+                    为什么要学习计算机系统基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="submit.html">
+            
+                <a href="submit.html">
+            
+                    
+                    实验提交要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="linux.html">
+            
+                <a href="linux.html">
+            
+                    
+                    Linux入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="man.html">
+            
+                <a href="man.html">
+            
+                    
+                    man入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    git入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="i386-typo.html">
+            
+                <a href="i386-typo.html">
+            
+                    
+                    i386手册勘误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="blank.html">
+            
+                <a href="blank.html">
+            
+                    
+                    提交反馈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.7.1" data-path="PA0-feedback.html">
+            
+                <a href="PA0-feedback.html">
+            
+                    
+                    PA0提交情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7.2" data-path="PA1-feedback.html">
+            
+                <a href="PA1-feedback.html">
+            
+                    
+                    PA1提交情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="feedback.html">
+            
+                <a href="feedback.html">
+            
+                    
+                    收集课程感想
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Transferring Files between host and container</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="transferring-files-between-host-and-container">Transferring Files Between host and container</h2>
+<p>Docker provides convenient ways to copy files between host and container. Open another <code>Docker Quickstart Terminal</code>. If your host is GNU/Linux, just open another terminal.</p>
+<p>To copy file from container to host, issue the following command in the host terminal:</p>
+<pre><code>docker cp CONTAINER:SRC_PATH HOST_PATH
+</code></pre><p>where</p>
+<ul>
+<li><code>CONTAINER</code> is the name of the container</li>
+<li><code>SRC_PATH</code> is the path of the file in container to copy</li>
+<li><code>HOST_PATH</code> is the path of the host to copy to</li>
+</ul>
+<p>For example, the following command will copy a file in the container to a Windows path:</p>
+<pre><code>docker cp ics-vm:/home/ics/a.txt /d/temp
+</code></pre><p>Note that you can not specify the path in Windows as <code>D:\temp</code>, since <code>:</code> in <code>docker cp</code> command has special meaning.</p>
+<p>To copy file from host to container, issue the following command in the host terminal:</p>
+<pre><code>docker cp HOST_SRC_PATH CONTAINER:DEST_PATH
+</code></pre><p>where</p>
+<ul>
+<li><code>HOST_SRC_PATH</code> is the path of the host file to copy</li>
+<li><code>CONTAINER</code> is the name of the container</li>
+<li><code>DEST_PATH</code> is the path in the container to copy to</li>
+</ul>
+<p>For example, the following command will copy a folder in Windows into the container:</p>
+<pre><code>docker cp /d/myfolder ics-vm:/home/ics
+</code></pre><p><div class="panel"><div class="lab">Have a try!</div><div class="word-in-panel"><ol>
+<li>New a text file with casual contents in the host.</li>
+<li>Copy the text file to the container.</li>
+<li>Modify the content of the text file in the container.</li>
+<li>Copy the modified file back to the host.</li>
+</ol>
+<p>Check whether the content of the modified file you get after the last step is expected. If it is the case, you are done!</p>
+</div></div></p>
+<p>However, you may encounter error when you are trying to save the modification in <code>vim</code> in step 3 above:</p>
+<pre><code>E45: &apos;readonly&apos; option is set (add ! to override)
+</code></pre><p>According to the message, the file is read-only, but you may use <code>!</code> to force saving. Type</p>
+<pre><code>:w!
+</code></pre><p>But you receive another error message this time (assuming the file name is <code>a.txt</code>):</p>
+<pre><code>&quot;a.txt&quot; E212: Can&apos;t open file for writing
+</code></pre><p>It seems that you do not have the permission to write to this file. Type</p>
+<pre><code>:q!
+</code></pre><p>to exit <code>vim</code> without saving. Back to shell, type</p>
+<pre><code>ls -l
+</code></pre><p>to display detail information of the files. You will see a list like</p>
+<pre><code>total 4
+-rw-r--r-- 1 root root   13 Sep  1  2016 a.txt
+</code></pre><p><a href="http://en.wikipedia.org/wiki/File_system_permissions#Notation_of_traditional_Unix_permissions" target="_blank">Here</a> are some explanations of what the first column (for example, <code>-rw-r--r--</code>) of the list means. For more information about what each column means, please search the Internet.</p>
+<p>You can see that the <code>a.txt</code> file is owned by root, and you do not have permission to modify it. This is because files copy into container will be owned by root. To change the owner of the copied files, issue the following command in the container:</p>
+<pre><code>sudo chown -R username a.txt
+</code></pre><p>where <code>username</code> is your username in the container. This time you should modify the file successfully. So, <font color="red">remember to change the owner of files after copying them into the container.</font></p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://sashimi-yzh.github.io/" target="_blank">Zihao Yu</a>, &#x91C7;&#x7528;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 3.0 &#x4E2D;&#x56FD;&#x5927;&#x9646; &#x8BB8;&#x53EF;&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;:  2019-05-03 18:33:11 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0.5.html" class="navigation navigation-prev " aria-label="Previous page: More Exploration">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0.7.html" class="navigation navigation-next " aria-label="Next page: Acquiring Source Code for PAs">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Transferring Files between host and container","level":"1.2.6","depth":2,"next":{"title":"Acquiring Source Code for PAs","level":"1.2.7","depth":2,"path":"0.7.md","ref":"0.7.md","articles":[]},"previous":{"title":"More Exploration","level":"1.2.5","depth":2,"path":"0.5.md","ref":"0.5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["localized-footer","page-footer-ex","ace","nestedmd","mdinhtml"],"pluginsConfig":{"ace":{},"page-footer-ex":{"copyright":"By [Zihao Yu](https://sashimi-yzh.github.io/), 采用[知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆 许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于: "},"mdinhtml":{},"search":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"nestedmd":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles.css","pdf":"styles.css"}},"file":{"path":"0.6.md","mtime":"2019-05-03T10:33:11.667Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-03T10:36:24.880Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

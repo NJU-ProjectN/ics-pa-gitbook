@@ -1,0 +1,192 @@
+.panel {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-title {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 16px !important;
+  color: inherit;
+}
+
+.panel-title > a,
+.panel-title > small,
+.panel-title > .small,
+.panel-title > small > a,
+.panel-title > .small > a {
+  color: inherit;
+}
+
+.panel-default {
+  border-color: #dddddd;
+}
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+
+.panel-primary {
+  border-color: #337ab7;
+  background-color: #D8EDF8;
+}
+
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.panel-success {
+  border-color: #DFF0D7;
+  background-color: #DFF0D7;
+}
+.panel-success > .panel-heading {
+  color: #ffffff;
+  background-color: #58B957;
+  border-color: #DFF0D7;
+}
+
+.panel-info {
+  border-color: #E7F2FA;
+  background-color: #E7F2FA;
+}
+.panel-info > .panel-heading {
+  background-color: #67AFE0;
+  color: #ffffff;
+  border-color: #E7F2FA;
+}
+
+.panel-warning {
+  border-color: #FFEDCA;
+  background-color: #FFEDCA;
+}
+.panel-warning > .panel-heading {
+  color: #ffffff;
+  background-color: #F1B37A;
+  border-color: #FFEDCA;
+}
+
+.panel-danger {
+  border-color: #F2DEDE;
+  background-color:#F2DEDE;
+}
+.panel-danger > .panel-heading {
+  color: #ffffff;
+  background-color: #DB524B;
+  border-color: #F2DEDE;
+}
+
+// Night Theme
+
+.book.color-theme-2 .panel {
+  margin-bottom: 20px;
+  background-color: #1c1f2b;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.book.color-theme-2 .panel-body {
+  padding: 15px;
+}
+
+.book.color-theme-2 .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #1c1f2b;
+}
+
+.book.color-theme-2 .panel-title {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 16px !important;
+  color: inherit;
+}
+
+.book.color-theme-2 .panel-title > a,
+.book.color-theme-2 .panel-title > small,
+.book.color-theme-2 .panel-title > .small,
+.book.color-theme-2 .panel-title > small > a,
+.book.color-theme-2 .panel-title > .small > a {
+  color: inherit;
+}
+
+.book.color-theme-2 .panel-default {
+  border-color: #dddddd;
+}
+.book.color-theme-2 .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+
+.book.color-theme-2 .panel-primary {
+  border-color: #245784;
+  background-color: #3F4346;
+}
+
+.book.color-theme-2 .panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #245784;
+  border-color: #245784;
+}
+
+.book.color-theme-2 .panel-success {
+  border-color: #2A582A;
+  background-color: #3B3E3A;
+}
+.book.color-theme-2 .panel-success > .panel-heading {
+  color: #ffffff;
+  background-color: #2A582A;
+  border-color: #2A582A;
+}
+
+.book.color-theme-2 .panel-info {
+  border-color: #3F6A88;
+  background-color: #3A3C3E;
+}
+.book.color-theme-2 .panel-info > .panel-heading {
+  background-color: #3F6A88;
+  color: #ffffff;
+  border-color: #3F6A88;
+}
+
+.book.color-theme-2 .panel-warning {
+  border-color: #AF845E;
+  background-color: #524D42;
+}
+.book.color-theme-2 .panel-warning > .panel-heading {
+  color: #ffffff;
+  background-color: #AF845E;
+  border-color: #AF845E;
+}
+
+.book.color-theme-2 .panel-danger {
+  border-color: #751712;
+  background-color:#3A3434;
+}
+.book.color-theme-2 .panel-danger > .panel-heading {
+  color: #ffffff;
+  background-color: #751712;
+  border-color: #751712;
+}
