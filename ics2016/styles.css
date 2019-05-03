@@ -1,0 +1,44 @@
+pre code {
+	color: inherit;
+}
+code {
+	color: #C7254E;
+}
+
+.panel {
+    border:solid 1px #AAAAAA;
+    width: 100%;
+    border-collapse:collapse;
+    empty-cells:show;
+    border-radius:5px;
+}
+
+.scroll {
+	height:200px;
+	overflow-x: hidden;
+}
+
+.word-in-panel {
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.box {
+    background-color: #A7C1F2;
+    width: 100%;
+    border-collapse:collapse;
+    empty-cells:show;
+    border:solid 1px #AAAAAA;
+	padding-left:10px;
+}
+
+.lab {
+    background-color: #F08080;
+    empty-cells:show;
+    width: 100%;
+    border:solid 1px #AAAAAA;
+	padding-left:10px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}

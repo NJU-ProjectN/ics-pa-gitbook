@@ -1,0 +1,49 @@
+pre code {
+	color: inherit;
+}
+code {
+	color: #C7254E;
+}
+
+.scroll {
+	height:200px;
+	overflow-x: hidden;
+}
+
+.word-in-panel {
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.box {
+    background-color: #A7C1F2;
+    width: 100%;
+    border-collapse:collapse;
+    empty-cells:show;
+    border:solid 1px #AAAAAA;
+	padding-left:10px;
+}
+
+.lab {
+    background-color: #F08080;
+    empty-cells:show;
+    width: 100%;
+    border:solid 1px #AAAAAA;
+	padding-left:10px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+/* override the size of callouts plugin */
+.panel-body {
+  padding: 0px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.panel-heading {
+  border-bottom: 10px solid transparent;
+	padding: 0px 0px;
+	padding-left:10px;
+}

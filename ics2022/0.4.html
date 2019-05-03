@@ -1,0 +1,1033 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Configuring vim · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-callouts/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles.css">
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0.5.html" />
+    
+    
+    <link rel="prev" href="0.3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="index.html">
+            
+                <a href="index.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="PA0.html">
+            
+                <a href="PA0.html">
+            
+                    
+                    PA0 - 世界诞生的前夜: 开发环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="0.1.html">
+            
+                <a href="0.1.html">
+            
+                    
+                    Installing GNU/Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="0.2.html">
+            
+                <a href="0.2.html">
+            
+                    
+                    First Exploration with GNU/Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="0.3.html">
+            
+                <a href="0.3.html">
+            
+                    
+                    Installing Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="0.4.html">
+            
+                <a href="0.4.html">
+            
+                    
+                    Configuring vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="0.5.html">
+            
+                <a href="0.5.html">
+            
+                    
+                    More Exploration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="0.6.html">
+            
+                <a href="0.6.html">
+            
+                    
+                    Getting Source Code for PAs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="PA1.html">
+            
+                <a href="PA1.html">
+            
+                    
+                    PA1 - 开天辟地的篇章: 最简单的计算机
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    在开始愉快的PA之旅之前
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    开天辟地的篇章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    RTFSC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    基础设施
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="1.5.html">
+            
+                <a href="1.5.html">
+            
+                    
+                    表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="1.6.html">
+            
+                <a href="1.6.html">
+            
+                    
+                    监视点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="1.7.html">
+            
+                <a href="1.7.html">
+            
+                    
+                    如何阅读手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="PA2.html">
+            
+                <a href="PA2.html">
+            
+                    
+                    PA2 - 简单复杂的机器: 冯诺依曼计算机系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    不停计算的机器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    RTFSC(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="2.3.html">
+            
+                <a href="2.3.html">
+            
+                    
+                    程序, 运行时环境与AM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="2.4.html">
+            
+                <a href="2.4.html">
+            
+                    
+                    基础设施(2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="2.5.html">
+            
+                <a href="2.5.html">
+            
+                    
+                    输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="PA3.html">
+            
+                <a href="PA3.html">
+            
+                    
+                    PA3 - 穿越时空的旅程: 批处理系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="3.1.html">
+            
+                <a href="3.1.html">
+            
+                    
+                    最简单的操作系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="3.2.html">
+            
+                <a href="3.2.html">
+            
+                    
+                    穿越时空的旅程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="3.3.html">
+            
+                <a href="3.3.html">
+            
+                    
+                    用户程序和系统调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="3.4.html">
+            
+                <a href="3.4.html">
+            
+                    
+                    文件系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="3.5.html">
+            
+                <a href="3.5.html">
+            
+                    
+                    精彩纷呈的应用程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="PA4.html">
+            
+                <a href="PA4.html">
+            
+                    
+                    PA4 - 虚实交错的魔法: 分时多任务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="4.1.html">
+            
+                <a href="4.1.html">
+            
+                    
+                    多道程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="4.2.html">
+            
+                <a href="4.2.html">
+            
+                    
+                    虚实交错的魔法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="4.3.html">
+            
+                <a href="4.3.html">
+            
+                    
+                    超越容量的界限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="4.4.html">
+            
+                <a href="4.4.html">
+            
+                    
+                    来自外部的声音
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="4.5.html">
+            
+                <a href="4.5.html">
+            
+                    
+                    编写不朽的传奇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="blank.html">
+            
+                <a href="blank.html">
+            
+                    
+                    杂项
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="FAQ.html">
+            
+                <a href="FAQ.html">
+            
+                    
+                    常见问题(FAQ)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="why.html">
+            
+                <a href="why.html">
+            
+                    
+                    为什么要学习计算机系统基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="linux.html">
+            
+                <a href="linux.html">
+            
+                    
+                    Linux入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="man.html">
+            
+                <a href="man.html">
+            
+                    
+                    man入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    git入门教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="nemu-isa-api.html">
+            
+                <a href="nemu-isa-api.html">
+            
+                    
+                    NEMU ISA相关API说明文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="changelog.html">
+            
+                <a href="changelog.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="i386-intro.html">
+            
+                <a href="i386-intro.html">
+            
+                    
+                    i386手册指令集阅读指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Configuring vim</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="configuring-vim">Configuring vim</h2>
+<pre><code>apt-get install vim
+</code></pre><p><code>vim</code> is called <a href="https://code2048.com/post/war_3_editor/" target="_blank">&#x7F16;&#x8F91;&#x5668;&#x4E4B;&#x795E;</a>.
+You will use <code>vim</code> for coding in all PAs and Labs, as well as editing other files.
+If you prefer to <code>emacs</code>, you can download and install <code>emacs</code> from network mirrors.</p>
+<h3 id="learning-vim">Learning vim</h3>
+<p>You are going to be asked to modify a file using <code>vim</code>.
+For most of you, this is the first time to use <code>vim</code>.
+The operations in <code>vim</code> are quite different from other editors you have ever used.
+To learn <code>vim</code>, you need a tutorial.
+There are two ways to get tutorials:</p>
+<ul>
+<li>Issue the <code>vimtutor</code> command in terminal. This will launch a tutorial for <code>vim</code>.<font color="red">This way is recommended, since you can read the tutorial and practice at the same time.</font></li>
+<li>Search the Internet with keyword &quot;vim &#x6559;&#x7A0B;&quot;, and you will find a lot of tutorials about <code>vim</code>.
+Choose some of them to read, meanwhile you can practice with the a temporary file by<pre><code>vim test
+</code></pre></li>
+</ul>
+<font color="red">PRACTICE IS VERY IMPORTANT. You can not learn anything by only reading the tutorials.</font>
+
+<div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x4E3A;&#x4EC0;&#x4E48;&#x4E0A;&#x8BFE;&#x4E0D;&#x8BB2;gnulinux&#x7684;&#x4F7F;&#x7528;"><i class="fa fa-bullhorn"></i> &#x4E3A;&#x4EC0;&#x4E48;&#x4E0A;&#x8BFE;&#x4E0D;&#x8BB2;GNU/Linux&#x7684;&#x4F7F;&#x7528;?</h5></div><div class="panel-body"><p>&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x60F3;: &#x8FD9;&#x662F;&#x6211;&#x7B2C;&#x4E00;&#x6B21;&#x63A5;&#x89E6;GNU/Linux, &#x4E3A;&#x4EC0;&#x4E48;&#x4E0A;&#x8BFE;&#x4E0D;&#x8BB2;&#x8BB2;&#x600E;&#x4E48;&#x7528;?</p><p>&#x56E0;&#x4E3A;&#x8BF4;&#x660E;&#x4E66;&#x4E0D;&#x662F;&#x7528;&#x6765;&#x8BB2;&#x7684;, &#x662F;&#x7528;&#x6765;&#x4E00;&#x8FB9;&#x770B;&#x4E00;&#x8FB9;&#x64CD;&#x4F5C;&#x7684;;
+&#x4F60;&#x4E5F;&#x4E0D;&#x80FD;&#x5149;&#x9760;&#x9053;&#x542C;&#x9014;&#x8BF4;&#x6765;&#x638C;&#x63E1;&#x8FD9;&#x4E9B;&#x5DE5;&#x5177;, &#x800C;&#x662F;&#x8981;&#x81EA;&#x5DF1;&#x53BB;&#x52A8;&#x624B;&#x5C1D;&#x8BD5;.
+&#x4F60;&#x5728;&#x5927;&#x5B66;&#x8BFE;&#x5802;&#x4E0A;&#x5E94;&#x8BE5;&#x5B66;&#x4E60;&#x5230;&#x7684;&#x662F;&#x90A3;&#x4E9B;&#x4E00;&#x8109;&#x76F8;&#x627F;&#x7684;&#x77E5;&#x8BC6;,
+&#x7136;&#x540E;&#x53BB;&#x601D;&#x8003;&#x8FD9;&#x4E9B;&#x77E5;&#x8BC6;&#x80CC;&#x540E;&#x7684;&#x539F;&#x5219;&#x548C;&#x601D;&#x60F3;, &#x5C06;&#x6765;&#x6709;&#x80FD;&#x529B;&#x5C06;&#x8FD9;&#x4E9B;&#x539F;&#x5219;&#x548C;&#x601D;&#x60F3;&#x5E94;&#x7528;&#x5230;&#x65B0;&#x7684;&#x9886;&#x57DF;.</p><p>&#x6211;&#x4EEC;&#x8BBE;&#x8BA1;&#x8FD9;&#x4E9B;&#x5B9E;&#x9A8C;&#x5185;&#x5BB9;, &#x662F;&#x4E3A;&#x4E86;&#x8BA9;&#x4F60;&#x660E;&#x767D;, &#x4F60;&#x6709;&#x80FD;&#x529B;&#x81EA;&#x5DF1;&#x53BB;&#x770B;&#x6559;&#x7A0B;&#x5B66;&#x4E60;&#x65B0;&#x7684;&#x5DE5;&#x5177;;
+&#x4EE5;&#x53CA;, &#x4EE5;&#x540E;&#x63A5;&#x89E6;&#x65B0;&#x4E8B;&#x7269;&#x7684;&#x65F6;&#x5019;, &#x4F60;&#x4E0D;&#x5E94;&#x8BE5;&#x7B49;&#x7740;&#x522B;&#x4EBA;&#x6765;&#x7ED9;&#x4F60;&#x8BB2;,
+&#x800C;&#x5E94;&#x8BE5;&#x81EA;&#x5DF1;&#x4E3B;&#x52A8;&#x53BB;&#x627E;&#x6559;&#x7A0B;&#x6765;&#x5B66;&#x4E60;&#x5982;&#x4F55;&#x4F7F;&#x7528;.</p></div></div>
+<!-- -->
+<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="some-games-operated-with-vim"><i class="fa fa-comment-o"></i> Some games operated with vim</h5></div><div class="panel-body"><p>Here are some games to help you master some basic operations in <code>vim</code>. Have fun!</p><ul>
+<li><a href="http://vim-adventures.com" target="_blank">Vim Adventures</a></li>
+<li><a href="http://www.vimsnake.com" target="_blank">Vim Snake</a></li>
+<li><a href="http://www.openvim.com/tutorial.html" target="_blank">Open Vim Tutorials</a></li>
+<li><a href="http://www.vimgenius.com" target="_blank">Vim Genius</a></li>
+</ul></div></div>
+<!-- -->
+<div class="panel panel-info"><div class="panel-heading"><h5 class="panel-title" id="the-power-of-vim"><i class="fa fa-comment-o"></i> The power of vim</h5></div><div class="panel-body"><p>You may never consider what can be done in such a &quot;BAD&quot; editor. Let&apos;s see two examples.</p><p>The first example is to generate the following file:</p><pre><code>1
+2
+3
+.....
+98
+99
+100
+</code></pre><p>This file contains 100 lines, and each line contains a number.
+What will you do? In <code>vim</code>, this is a piece of cake.
+First change <code>vim</code> into normal state (when <code>vim</code> is just opened, it is in normal state),
+then press the following keys sequentially:</p><pre><code>i1&lt;ESC&gt;q1yyp&lt;C-a&gt;q98@1
+</code></pre><p>where <code>&lt;ESC&gt;</code> means the ESC key, and <code>&lt;C-a&gt;</code> means &quot;Ctrl + a&quot; here.
+You only press no more than 15 keys to generate this file.
+Is it amazing? What about a file with 1000 lines? What you do is just to press one more key:</p><pre><code>i1&lt;ESC&gt;q1yyp&lt;C-a&gt;q998@1
+</code></pre><p>The magic behind this example is recording and replaying.
+You initial the file with the first line.
+Then record the generation of the second.
+After that, you replay the generation for 998 times to obtain the file.</p><p>The second example is to modify a file. Suppose you have such a file:</p><pre><code>aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb
+cccccccccccccccccccccccccddddddddddddddddddddddddd
+eeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffff
+ggggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhh
+iiiiiiiiiiiiiiiiiiiiiiiiijjjjjjjjjjjjjjjjjjjjjjjjj
+</code></pre><p>You want to modify it into:</p><pre><code>bbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaa
+dddddddddddddddddddddddddccccccccccccccccccccccccc
+fffffffffffffffffffffffffeeeeeeeeeeeeeeeeeeeeeeeee
+hhhhhhhhhhhhhhhhhhhhhhhhhggggggggggggggggggggggggg
+jjjjjjjjjjjjjjjjjjjjjjjjjiiiiiiiiiiiiiiiiiiiiiiiii
+</code></pre><p>What will you do? In <code>vim</code>, this is a piece of cake, too.
+First locate the cursor to first &quot;a&quot; in the first line.
+And change <code>vim</code> into normal state, then press the following keys sequentially:</p><pre><code>&lt;C-v&gt;24l4jd$p
+</code></pre><p>where <code>&lt;C-v&gt;</code> means &quot;Ctrl + v&quot; here.
+What about a file with 100 such lines? What you do is just to press one more key:</p><pre><code>&lt;C-v&gt;24l99jd$p
+</code></pre><p>Although these two examples are artificial, they display the powerful functionality of <code>vim</code>,
+comparing with other editors you have used.</p></div></div>
+<h3 id="enabling-syntax-highlight">Enabling syntax highlight</h3>
+<p><code>vim</code> provides more improvements comparing with <code>vi</code>.
+But these improvements are disabled by default.
+Therefore, you should enable them first.</p>
+<p>We take syntax highlight as an example to illustrate how to enable the features of <code>vim</code>.
+To do this, you should modify the <code>vim</code> configuration file.
+The file is called <code>.vimrc</code>, and it is located under <code>/etc/vim</code> directory.
+We first make a copy of it to the home directory by <code>cp</code> command:</p>
+<pre><code>cp /etc/vim/vimrc ~/.vimrc
+</code></pre><p>And switch to the home directory if you are not under it yet:</p>
+<pre><code>cd ~
+</code></pre><p>If you use <code>ls</code> to list files, you will not see the <code>.vimrc</code> you just copied.
+This is because a file whose name starts with a <code>.</code> is a hidden file in GNU/Linux.
+To show hidden files, use <code>ls</code> with <code>-a</code> option:</p>
+<pre><code>ls -a
+</code></pre><p>Then open <code>.vimrc</code> using <code>vim</code>:</p>
+<pre><code>vim .vimrc
+</code></pre><p>After you learn some basic operations in <code>vim</code> (such as moving, inserting text, deleting text),
+you can try to modify the <code>.vimrc</code> file as following:</p>
+<pre><code class="lang-diff"><span class="hljs-comment">--- before modification</span>
+<span class="hljs-comment">+++ after modification</span>
+<span class="hljs-meta">@@ -17,3 +17,3 @@</span>
+ &quot; Vim5 and later versions support syntax highlighting. Uncommenting the next
+ &quot; line enables syntax highlighting by default.
+<span class="hljs-deletion">-&quot;syntax on</span>
+<span class="hljs-addition">+syntax on</span>
+</code></pre>
+<p>We present the modification with <a href="http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html" target="_blank">GNU diff format</a>.
+If you do not understand the diff format, please search the Internet for more information.</p>
+<div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x4E3A;&#x4EC0;&#x4E48;&#x8981;stfw"><i class="fa fa-bullhorn"></i> &#x4E3A;&#x4EC0;&#x4E48;&#x8981;STFW?</h5></div><div class="panel-body"><p>&#x4F60;&#x6216;&#x8BB8;&#x4F1A;&#x60F3;, &#x6211;&#x95EE;&#x522B;&#x4EBA;&#x662F;&#x4E3A;&#x4E86;&#x8282;&#x7701;&#x6211;&#x7684;&#x65F6;&#x95F4;.</p><p>&#x4F46;&#x73B0;&#x5728;&#x662F;&#x4E92;&#x8054;&#x7F51;&#x65F6;&#x4EE3;&#x4E86;, &#x5728;&#x7F51;&#x4E0A;&#x4F60;&#x80FD;&#x5F97;&#x5230;&#x5404;&#x79CD;&#x4FE1;&#x606F;:
+&#x6BD4;&#x5982;diff&#x683C;&#x5F0F;&#x8FD9;&#x79CD;&#x6807;&#x51C6;&#x4FE1;&#x606F;, &#x7F51;&#x4E0A;&#x662F;100%&#x80FD;&#x641C;&#x5230;&#x7684;;
+&#x5C31;&#x5305;&#x62EC;&#x4F60;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;, &#x5F88;&#x5927;&#x6982;&#x7387;&#x4E5F;&#x662F;&#x522B;&#x4EBA;&#x5728;&#x7F51;&#x4E0A;&#x6C42;&#x52A9;&#x8FC7;&#x7684;.
+&#x5982;&#x679C;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x4F60;&#x672C;&#x6765;&#x53EA;&#x9700;&#x8981;&#x5728;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x4E0A;&#x8F93;&#x5165;&#x51E0;&#x4E2A;&#x5173;&#x952E;&#x5B57;&#x5C31;&#x80FD;&#x627E;&#x5230;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x7684;&#x95EE;&#x9898;,
+&#x4F60;&#x90FD;&#x6CA1;&#x6709;&#x4ED8;&#x51FA;&#x5982;&#x6B64;&#x5FAE;&#x5C0F;&#x7684;&#x52AA;&#x529B;, &#x800C;&#x662F;&#x9996;&#x5148;&#x60F3;&#x7740;&#x627E;&#x4EBA;&#x6765;&#x5E2E;&#x4F60;&#x89E3;&#x51B3;, &#x5360;&#x7528;&#x522B;&#x4EBA;&#x5B9D;&#x8D35;&#x7684;&#x65F6;&#x95F4;,
+&#x4F60;&#x5C06;&#x662F;&#x8FD9;&#x4E2A;&#x65F6;&#x4EE3;&#x7684;<font color="red">&#x5931;&#x8D25;&#x8005;</font>.</p><p>&#x4E8E;&#x662F;&#x6709;&#x4E86;STFW (Search The F**king Web) &#x7684;&#x8BF4;&#x6CD5;, &#x5B83;&#x7684;&#x610F;&#x601D;&#x662F;,
+&#x5728;&#x5411;&#x522B;&#x4EBA;&#x6C42;&#x52A9;&#x4E4B;&#x524D;&#x81EA;&#x5DF1;&#x5148;&#x5C1D;&#x8BD5;&#x901A;&#x8FC7;&#x6B63;&#x786E;&#x7684;&#x65B9;&#x5F0F;&#x4F7F;&#x7528;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x72EC;&#x7ACB;&#x5BFB;&#x627E;&#x89E3;&#x51B3;&#x65B9;&#x6848;.</p><p>&#x6B63;&#x786E;&#x7684;STFW&#x65B9;&#x5F0F;&#x80FD;&#x591F;&#x589E;&#x52A0;&#x627E;&#x5230;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x7684;&#x6982;&#x7387;, &#x5305;&#x62EC;</p><ul>
+<li>&#x4F7F;&#x7528;<a href="www.google.com">Google&#x641C;&#x7D22;&#x5F15;&#x64CE;</a>&#x641C;&#x7D22;&#x4E00;&#x822C;&#x6027;&#x95EE;&#x9898;</li>
+<li>&#x4F7F;&#x7528;<a href="http://en.wikipedia.org" target="_blank">&#x82F1;&#x6587;&#x7EF4;&#x57FA;&#x767E;&#x79D1;</a>&#x67E5;&#x9605;&#x6982;&#x5FF5;</li>
+<li>&#x4F7F;&#x7528;<a href="http://stackoverflow.com" target="_blank">stack overflow&#x95EE;&#x7B54;&#x7F51;&#x7AD9;</a>&#x641C;&#x7D22;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x76F8;&#x5173;&#x95EE;&#x9898;</li>
+</ul><p>&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x4E0A;&#x8FF0;&#x65B9;&#x5F0F;&#x6765;STFW, &#x8BF7;&#x4E0D;&#x8981;&#x62B1;&#x6028;&#x627E;&#x4E0D;&#x5230;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x800C;&#x5F00;&#x59CB;&#x5411;&#x522B;&#x4EBA;&#x6C42;&#x52A9;,
+&#x4F60;&#x5E94;&#x8BE5;&#x60F3;, &quot;&#x5662;&#x6211;&#x521A;&#x624D;&#x7528;&#x7684;&#x662F;&#x767E;&#x5EA6;, &#x63A5;&#x4E0B;&#x6765;&#x6211;&#x5E94;&#x8BE5;&#x8BD5;&#x8BD5;Google&quot;.
+&#x5173;&#x4E8E;&#x4F7F;&#x7528;Google, &#x5728;&#x5B66;&#x6821;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x8BBE;&#x7F6E;IPv6, &#x6216;&#x8005;&#x8BBE;&#x7F6E;&quot;&#x79D1;&#x5B66;&#x4E0A;&#x7F51;&quot;, &#x5177;&#x4F53;&#x8BBE;&#x7F6E;&#x65B9;&#x5F0F;&#x8BF7;STFW.</p></div></div>
+<!-- -->
+<div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x8981;&#x7528;&#x767E;&#x5EA6;"><i class="fa fa-bullhorn"></i> &#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x8981;&#x7528;&#x767E;&#x5EA6;?</h5></div><div class="panel-body"><p>&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x90FD;&#x7528;&#x8FC7;&#x767E;&#x5EA6;&#x6765;&#x641C;&#x7D22;&#x4E00;&#x4E9B;&#x975E;&#x6280;&#x672F;&#x95EE;&#x9898;, &#x800C;&#x4E14;&#x4E00;&#x822C;&#x5F88;&#x5BB9;&#x6613;&#x627E;&#x5230;&#x7B54;&#x6848;.
+&#x4F46;&#x968F;&#x7740;&#x95EE;&#x9898;&#x6280;&#x672F;&#x542B;&#x91CF;&#x7684;&#x63D0;&#x9AD8;, &#x767E;&#x5EA6;&#x7684;&#x641C;&#x7D22;&#x7ED3;&#x679C;&#x4F1A;&#x53D8;&#x5F97;&#x8D8A;&#x6765;&#x8D8A;&#x4E0D;&#x9760;&#x8C31;.
+&#x575A;&#x6301;&#x4F7F;&#x7528;&#x767E;&#x5EA6;&#x641C;&#x7D22;&#x6280;&#x672F;&#x95EE;&#x9898;, &#x4F60;&#x5C06;&#x5F88;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x78B0;&#x5230;&#x4EE5;&#x4E0B;&#x60C5;&#x51B5;&#x4E4B;&#x4E00;:</p><ul>
+<li>&#x641C;&#x4E0D;&#x5230;&#x76F8;&#x5173;&#x7ED3;&#x679C;, &#x4F60;&#x611F;&#x5230;&#x632B;&#x8D25;</li>
+<li>&#x641C;&#x5230;&#x770B;&#x4F3C;&#x76F8;&#x5173;&#x7684;&#x7ED3;&#x679C;, &#x4F46;&#x65E0;&#x6CD5;&#x89E3;&#x51B3;&#x95EE;&#x9898;, &#x4F60;&#x5728;&#x611F;&#x5230;&#x632B;&#x8D25;&#x4E4B;&#x4F59;, &#x4E5F;&#x53D1;&#x73B0;&#x81EA;&#x5DF1;&#x6D6A;&#x8D39;&#x4E86;&#x4E0D;&#x5C11;&#x65F6;&#x95F4;</li>
+<li>&#x4F60;&#x641C;&#x5230;&#x4E86;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6848;, &#x4F46;&#x6CA1;&#x6709;&#x53D1;&#x73B0;&#x539F;&#x56E0;&#x5206;&#x6790;, &#x7ED3;&#x679C;&#x4F60;&#x4E0D;&#x77E5;&#x9053;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x80CC;&#x540E;&#x7684;&#x7EC6;&#x8282;</li>
+</ul><p>&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x89C9;&#x5F97;&quot;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x5C31;&#x884C;, &#x4E0D;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x95EE;&#x9898;&#x80CC;&#x540E;&#x7684;&#x7EC6;&#x8282;&quot;.
+&#x4F46;&#x5BF9;&#x4E8E;&#x4E00;&#x4E9B;&#x95EE;&#x9898;(&#x4F8B;&#x5982;&#x7F16;&#x7A0B;&#x95EE;&#x9898;), &#x4F60;&#x4E86;&#x89E3;&#x8FD9;&#x4E9B;&#x7EC6;&#x8282;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x5B66;&#x5230;&#x4E86;&#x65B0;&#x7684;&#x77E5;&#x8BC6;,
+&#x6240;&#x4EE5;&#x4F60;&#x5E94;&#x8BE5;&#x53BB;&#x4E86;&#x89E3;&#x8FD9;&#x4E9B;&#x7EC6;&#x8282;, &#x8BA9;&#x81EA;&#x5DF1;&#x61C2;&#x5F97;&#x66F4;&#x591A;.</p><p>&#x5982;&#x679C;&#x8C37;&#x6B4C;&#x80FD;&#x4EE5;&#x66F4;&#x9AD8;&#x7684;&#x6982;&#x7387;&#x63D0;&#x4F9B;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6848;, &#x5E76;&#x4E14;&#x5E26;&#x6709;&#x539F;&#x56E0;&#x5206;&#x6790;,
+&#x4F60;&#x5E94;&#x8BE5;&#x6CA1;&#x6709;&#x7406;&#x7531;&#x4F7F;&#x7528;&#x767E;&#x5EA6;&#x6765;&#x641C;&#x7D22;&#x6280;&#x672F;&#x95EE;&#x9898;.
+&#x5982;&#x679C;&#x4F60;&#x4ECD;&#x7136;&#x575A;&#x6301;&#x4F7F;&#x7528;&#x767E;&#x5EA6;, &#x539F;&#x56E0;&#x5C31;&#x53EA;&#x6709;&#x4E00;&#x4E2A;: &#x4F60;&#x4E0D;&#x60F3;&#x4E3B;&#x52A8;&#x53BB;&#x6210;&#x957F;.</p></div></div>
+<p>After you are done, you should save your modification.
+Exit <code>vim</code> and open the <code>.vimrc</code> file again, you should see the syntax highlight feature is enabled.</p>
+<div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8FD9;&#x4E48;&#x9EBB;&#x70E6;"><i class="fa fa-bullhorn"></i> &#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8FD9;&#x4E48;&#x9EBB;&#x70E6;?</h5></div><div class="panel-body"><p>&#x641E;&#x4E86;&#x534A;&#x5929;, &#x4F60;&#x53D1;&#x73B0;&#x5176;&#x5B9E;&#x4E5F;&#x5C31;&#x662F;&#x6539;&#x52A8;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x800C;&#x5DF2;, &#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x76F4;&#x63A5;&#x8BF4;&#x6E05;&#x695A;&#x5462;?</p><p>&#x8FD9;&#x662F;&#x4E3A;&#x4E86;&quot;&#x5165;&#x4E61;&#x968F;&#x4FD7;&quot;: &#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x4F60;&#x4E86;&#x89E3;&#x600E;&#x4E48;&#x7528;&#x8BA1;&#x7B97;&#x673A;&#x601D;&#x7EF4;&#x7CBE;&#x7B80;&#x51C6;&#x786E;&#x5730;&#x8868;&#x8FBE;&#x6211;&#x4EEC;&#x60F3;&#x505A;&#x7684;&#x4E8B;&#x60C5;.
+diff&#x683C;&#x5F0F;&#x662F;&#x4E00;&#x79CD;&#x63CF;&#x8FF0;&#x6587;&#x4EF6;&#x6539;&#x52A8;&#x7684;&#x5E38;&#x7528;&#x65B9;&#x5F0F;.
+&#x5B9E;&#x9645;&#x4E0A;, &#x8BA1;&#x7B97;&#x673A;&#x7684;&#x4E16;&#x754C;&#x91CC;&#x9762;&#x6709;&#x5F88;&#x591A;&#x7EA6;&#x5B9A;&#x4FD7;&#x6210;&#x7684;&quot;&#x89C4;&#x77E9;&quot;,
+&#x5F53;&#x4F60;&#x6162;&#x6162;&#x53BB;&#x63A5;&#x89E6;&#x53BB;&#x4E86;&#x89E3;&#x8FD9;&#x4E9B;&#x89C4;&#x77E9;&#x7684;&#x65F6;&#x5019;, &#x4F60;&#x5C31;&#x4F1A;&#x5728;&#x4E0D;&#x77E5;&#x4E0D;&#x89C9;&#x4E2D;&#x660E;&#x767D;&#x8BA1;&#x7B97;&#x673A;&#x4E16;&#x754C;&#x662F;&#x600E;&#x4E48;&#x8FD0;&#x8F6C;&#x7684;.</p></div></div>
+<h3 id="enabling-more-vim-features">Enabling more vim features</h3>
+<p>Modify the <code>.vimrc</code> file mentioned above as the following:</p>
+<pre><code class="lang-diff"><span class="hljs-comment">--- before modification</span>
+<span class="hljs-comment">+++ after modification</span>
+<span class="hljs-meta">@@ -21,3 +21,3 @@</span>
+ &quot; If using a dark background within the editing area and syntax highlighting
+ &quot; turn on this option as well
+<span class="hljs-deletion">-&quot;set background=dark</span>
+<span class="hljs-addition">+set background=dark</span>
+<span class="hljs-meta">@@ -31,5 +31,5 @@</span>
+ &quot; Uncomment the following to have Vim load indentation rules and plugins
+ &quot; according to the detected filetype.
+<span class="hljs-deletion">-&quot;filetype plugin indent on</span>
+<span class="hljs-addition">+filetype plugin indent on</span>
+<span class="hljs-meta">@@ -37,10 +37,10 @@</span>
+ &quot; The following are commented out as they cause vim to behave a lot
+ &quot; differently from regular Vi. They are highly recommended though.
+ &quot;set showcmd            &quot; Show (partial) command in status line.
+<span class="hljs-deletion">-&quot;set showmatch          &quot; Show matching brackets.</span>
+<span class="hljs-deletion">-&quot;set ignorecase         &quot; Do case insensitive matching</span>
+<span class="hljs-deletion">-&quot;set smartcase          &quot; Do smart case matching</span>
+<span class="hljs-deletion">-&quot;set incsearch          &quot; Incremental search</span>
+<span class="hljs-addition">+set showmatch          &quot; Show matching brackets.</span>
+<span class="hljs-addition">+set ignorecase         &quot; Do case insensitive matching</span>
+<span class="hljs-addition">+set smartcase          &quot; Do smart case matching</span>
+<span class="hljs-addition">+set incsearch          &quot; Incremental search</span>
+ &quot;set autowrite          &quot; Automatically save before commands like :next and :make
+<span class="hljs-deletion">-&quot;set hidden             &quot; Hide buffers when they are abandoned</span>
+<span class="hljs-addition">+set hidden             &quot; Hide buffers when they are abandoned</span>
+ &quot;set mouse=a            &quot; Enable mouse usage (all modes)
+</code></pre>
+<p>You can append the following content at the end of the <code>.vimrc</code> file to enable more features.
+Note that contents after a double quotation mark <code>&quot;</code> are comments, and you do not need to include them.
+Of course, you can inspect every features to determine to enable or not.</p>
+<pre><code>setlocal noswapfile &quot; &#x4E0D;&#x8981;&#x751F;&#x6210;swap&#x6587;&#x4EF6;
+set bufhidden=hide &quot; &#x5F53;buffer&#x88AB;&#x4E22;&#x5F03;&#x7684;&#x65F6;&#x5019;&#x9690;&#x85CF;&#x5B83;
+colorscheme evening &quot; &#x8BBE;&#x5B9A;&#x914D;&#x8272;&#x65B9;&#x6848;
+set number &quot; &#x663E;&#x793A;&#x884C;&#x53F7;
+set cursorline &quot; &#x7A81;&#x51FA;&#x663E;&#x793A;&#x5F53;&#x524D;&#x884C;
+set ruler &quot; &#x6253;&#x5F00;&#x72B6;&#x6001;&#x680F;&#x6807;&#x5C3A;
+set shiftwidth=2 &quot; &#x8BBE;&#x5B9A; &lt;&lt; &#x548C; &gt;&gt; &#x547D;&#x4EE4;&#x79FB;&#x52A8;&#x65F6;&#x7684;&#x5BBD;&#x5EA6;&#x4E3A; 2
+set softtabstop=2 &quot; &#x4F7F;&#x5F97;&#x6309;&#x9000;&#x683C;&#x952E;&#x65F6;&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x5220;&#x6389; 2 &#x4E2A;&#x7A7A;&#x683C;
+set tabstop=2 &quot; &#x8BBE;&#x5B9A; tab &#x957F;&#x5EA6;&#x4E3A; 2
+set nobackup &quot; &#x8986;&#x76D6;&#x6587;&#x4EF6;&#x65F6;&#x4E0D;&#x5907;&#x4EFD;
+set autochdir &quot; &#x81EA;&#x52A8;&#x5207;&#x6362;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E3A;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x6240;&#x5728;&#x7684;&#x76EE;&#x5F55;
+set backupcopy=yes &quot; &#x8BBE;&#x7F6E;&#x5907;&#x4EFD;&#x65F6;&#x7684;&#x884C;&#x4E3A;&#x4E3A;&#x8986;&#x76D6;
+set hlsearch &quot; &#x641C;&#x7D22;&#x65F6;&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x88AB;&#x627E;&#x5230;&#x7684;&#x6587;&#x672C;
+set noerrorbells &quot; &#x5173;&#x95ED;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#x54CD;&#x94C3;
+set novisualbell &quot; &#x5173;&#x95ED;&#x4F7F;&#x7528;&#x53EF;&#x89C6;&#x54CD;&#x94C3;&#x4EE3;&#x66FF;&#x547C;&#x53EB;
+set t_vb= &quot; &#x7F6E;&#x7A7A;&#x9519;&#x8BEF;&#x94C3;&#x58F0;&#x7684;&#x7EC8;&#x7AEF;&#x4EE3;&#x7801;
+set matchtime=2 &quot; &#x77ED;&#x6682;&#x8DF3;&#x8F6C;&#x5230;&#x5339;&#x914D;&#x62EC;&#x53F7;&#x7684;&#x65F6;&#x95F4;
+set magic &quot; &#x8BBE;&#x7F6E;&#x9B54;&#x672F;
+set smartindent &quot; &#x5F00;&#x542F;&#x65B0;&#x884C;&#x65F6;&#x4F7F;&#x7528;&#x667A;&#x80FD;&#x81EA;&#x52A8;&#x7F29;&#x8FDB;
+set backspace=indent,eol,start &quot; &#x4E0D;&#x8BBE;&#x5B9A;&#x5728;&#x63D2;&#x5165;&#x72B6;&#x6001;&#x65E0;&#x6CD5;&#x7528;&#x9000;&#x683C;&#x952E;&#x548C; Delete &#x952E;&#x5220;&#x9664;&#x56DE;&#x8F66;&#x7B26;
+set cmdheight=1 &quot; &#x8BBE;&#x5B9A;&#x547D;&#x4EE4;&#x884C;&#x7684;&#x884C;&#x6570;&#x4E3A; 1
+set laststatus=2 &quot; &#x663E;&#x793A;&#x72B6;&#x6001;&#x680F; (&#x9ED8;&#x8BA4;&#x503C;&#x4E3A; 1, &#x65E0;&#x6CD5;&#x663E;&#x793A;&#x72B6;&#x6001;&#x680F;)
+set statusline=\ %&lt;%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&amp;fileformat}\ %{&amp;encoding}\ Ln\ %l,\ Col\ %c/%L%) &quot; &#x8BBE;&#x7F6E;&#x5728;&#x72B6;&#x6001;&#x884C;&#x663E;&#x793A;&#x7684;&#x4FE1;&#x606F;
+set foldenable &quot; &#x5F00;&#x59CB;&#x6298;&#x53E0;
+set foldmethod=syntax &quot; &#x8BBE;&#x7F6E;&#x8BED;&#x6CD5;&#x6298;&#x53E0;
+set foldcolumn=0 &quot; &#x8BBE;&#x7F6E;&#x6298;&#x53E0;&#x533A;&#x57DF;&#x7684;&#x5BBD;&#x5EA6;
+setlocal foldlevel=1 &quot; &#x8BBE;&#x7F6E;&#x6298;&#x53E0;&#x5C42;&#x6570;&#x4E3A; 1
+nnoremap &lt;space&gt; @=((foldclosed(line(&apos;.&apos;)) &lt; 0) ? &apos;zc&apos; : &apos;zo&apos;)&lt;CR&gt; &quot; &#x7528;&#x7A7A;&#x683C;&#x952E;&#x6765;&#x5F00;&#x5173;&#x6298;&#x53E0;
+</code></pre><div class="panel panel-danger"><div class="panel-heading"><h5 class="panel-title" id="&#x63D0;&#x9AD8;&#x5F00;&#x53D1;&#x6548;&#x7387;&#x7684;&#x7F16;&#x8F91;&#x5668;"><i class="fa fa-bullhorn"></i> &#x63D0;&#x9AD8;&#x5F00;&#x53D1;&#x6548;&#x7387;&#x7684;&#x7F16;&#x8F91;&#x5668;</h5></div><div class="panel-body"><p>&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x8BFE;&#x4E0A;&#x4F60;&#x5B66;&#x4F1A;&#x4E86;&#x4F7F;&#x7528;Visual Studio, &#x7136;&#x540E;&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x8BA4;&#x4E3A;, &#x7A0B;&#x5E8F;&#x5458;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#x5199;&#x4EE3;&#x7801;&#x7684;&#x4E86;.
+&#x5176;&#x5B9E;&#x5E76;&#x4E0D;&#x662F;, &#x7A0B;&#x5E8F;&#x5458;&#x4F1A;&#x8FFD;&#x6C42;&#x90A3;&#x4E9B;&#x63D0;&#x9AD8;&#x6548;&#x7387;&#x7684;&#x65B9;&#x6CD5;.
+&#x4E0D;&#x662F;GUI&#x4E0D;&#x597D;, &#x800C;&#x662F;&#x4F60;&#x53EA;&#x662F;&#x7528;&#x8BB0;&#x4E8B;&#x672C;&#x7684;&#x64CD;&#x4F5C;&#x65B9;&#x5F0F;&#x6765;&#x5199;&#x4EE3;&#x7801;.
+&#x6240;&#x4EE5;&#x4F60;&#x9700;&#x8981;&#x6539;&#x53D8;, &#x53BB;&#x5C1D;&#x8BD5;&#x4E00;&#x4E9B;&#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x4F60;&#x63D0;&#x9AD8;&#x5F00;&#x53D1;&#x6548;&#x7387;&#x7684;&#x5DE5;&#x5177;.</p><p>&#x5728;GNU/Linux&#x4E2D;, &#x4E0E;&#x8BB0;&#x4E8B;&#x672C;&#x7684;&#x64CD;&#x4F5C;&#x65B9;&#x5F0F;&#x76F8;&#x6BD4;, &#x5B66;&#x4F1A;<code>vim</code>&#x7684;&#x57FA;&#x672C;&#x64CD;&#x4F5C;&#x5C31;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x5F00;&#x53D1;&#x6548;&#x7387;.
+&#x8FD8;&#x6709;&#x5404;&#x79CD;&#x63D2;&#x4EF6;&#x6765;&#x589E;&#x5F3A;<code>vim</code>&#x7684;&#x529F;&#x80FD;, &#x6BD4;&#x5982;&#x53EF;&#x4EE5;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x53D8;&#x91CF;&#x8DF3;&#x8F6C;&#x7684;<code>ctags</code>&#x7B49;&#x7B49;.
+&#x4F60;&#x53EF;&#x4EE5;&#x82B1;&#x70B9;&#x65F6;&#x95F4;&#x53BB;&#x914D;&#x7F6E;&#x4E00;&#x4E0B;<code>vim</code>, &#x5177;&#x4F53;&#x914D;&#x7F6E;&#x65B9;&#x5F0F;&#x8BF7;STFW.
+&#x603B;&#x4E4B;, &quot;&#x7F16;&#x8F91;&#x5668;&#x4E4B;&#x795E;&quot;&#x53EF;&#x4E0D;&#x662F;&#x6D6A;&#x5F97;&#x865A;&#x540D;&#x7684;.</p></div></div>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://sashimi-yzh.github.io/" target="_blank">Zihao Yu</a>, &#x91C7;&#x7528;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 3.0 &#x4E2D;&#x56FD;&#x5927;&#x9646; &#x8BB8;&#x53EF;&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;:  2023-03-08 15:21:05 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0.3.html" class="navigation navigation-prev " aria-label="Previous page: Installing Tools">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0.5.html" class="navigation navigation-next " aria-label="Next page: More Exploration">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Configuring vim","level":"1.2.4","depth":2,"next":{"title":"More Exploration","level":"1.2.5","depth":2,"path":"0.5.md","ref":"0.5.md","articles":[]},"previous":{"title":"Installing Tools","level":"1.2.3","depth":2,"path":"0.3.md","ref":"0.3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.x.x","theme":"default","variables":{},"plugins":["theme-comscore","intopic-toc","localized-footer","page-footer-ex","callouts"],"pluginsConfig":{"callouts":{"option":{"alert":"info","picto":"fa-edit"},"flag":{"alert":"success","picto":"fa-flag"},"question":{"alert":"info","picto":"fa-question-circle"},"info":{"alert":"info","picto":"fa-info-circle"},"todo":{"alert":"warning","picto":"fa-edit"},"caution":{"alert":"danger","picto":"fa-bullhorn"},"danger":{"alert":"danger","picto":"fa-exclamation"},"showTypeInHeader":false},"intopic-toc":{"isCollapsed":false,"isScrollspyActive":true,"label":"导航","maxDepth":6,"mode":"nested","selector":".markdown-section h2, .markdown-section h3, .markdown-section h4","visible":true},"page-footer-ex":{"copyright":"By [Zihao Yu](https://sashimi-yzh.github.io/), 采用[知识共享 署名-非商业性使用-相同方式共享 3.0 中国大陆 许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于: "},"search":{},"localized-footer":{"filename":"FOOTER.md","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles.css","pdf":"styles.css"}},"file":{"path":"0.4.md","mtime":"2023-03-08T07:21:05.282Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-05-13T05:15:14.770Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
