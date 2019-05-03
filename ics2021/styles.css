@@ -1,0 +1,12 @@
+/* override the size of callouts plugin */
+.panel-body {
+  padding: 0px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.panel-heading {
+  border-bottom: 10px solid transparent;
+	padding: 0px 0px;
+	padding-left:10px;
+}
