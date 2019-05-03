@@ -1,0 +1,6 @@
+78c78,80
+<         var text = elements[i].textContent;
+---
+>         var space = (elements[i].nodeName === "H3" ? '\xa0\xa0\xa0\xa0' : 
+>           (elements[i].nodeName === 'H4' ? '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' :''));
+>         var text = space + elements[i].textContent;
